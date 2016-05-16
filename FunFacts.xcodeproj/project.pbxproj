@@ -16,6 +16,8 @@
 		D92C72BC1CCAFE2300216A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92C72BA1CCAFE2300216A1A /* LaunchScreen.storyboard */; };
 		D92C72C71CCAFE2300216A1A /* FunFactsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C72C61CCAFE2300216A1A /* FunFactsTests.m */; };
 		D92C72D21CCAFE2300216A1A /* FunFactsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C72D11CCAFE2300216A1A /* FunFactsUITests.m */; };
+		D92C72E11CCB234D00216A1A /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C72E01CCB234D00216A1A /* FactBook.m */; };
+		D92C72E41CCBDD5C00216A1A /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C72E31CCBDD5C00216A1A /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		D92C72CD1CCAFE2300216A1A /* FunFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D92C72D11CCAFE2300216A1A /* FunFactsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunFactsUITests.m; sourceTree = "<group>"; };
 		D92C72D31CCAFE2300216A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92C72DF1CCB234D00216A1A /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		D92C72E01CCB234D00216A1A /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		D92C72E21CCBDD5C00216A1A /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		D92C72E31CCBDD5C00216A1A /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,10 @@
 				D92C72AD1CCAFE2300216A1A /* AppDelegate.m */,
 				D92C72AF1CCAFE2300216A1A /* ViewController.h */,
 				D92C72B01CCAFE2300216A1A /* ViewController.m */,
+				D92C72DF1CCB234D00216A1A /* FactBook.h */,
+				D92C72E01CCB234D00216A1A /* FactBook.m */,
+				D92C72E21CCBDD5C00216A1A /* ColorWheel.h */,
+				D92C72E31CCBDD5C00216A1A /* ColorWheel.m */,
 				D92C72B21CCAFE2300216A1A /* Main.storyboard */,
 				D92C72B81CCAFE2300216A1A /* Assets.xcassets */,
 				D92C72BA1CCAFE2300216A1A /* LaunchScreen.storyboard */,
@@ -275,6 +285,8 @@
 			files = (
 				D92C72B11CCAFE2300216A1A /* ViewController.m in Sources */,
 				D92C72AE1CCAFE2300216A1A /* AppDelegate.m in Sources */,
+				D92C72E11CCB234D00216A1A /* FactBook.m in Sources */,
+				D92C72E41CCBDD5C00216A1A /* ColorWheel.m in Sources */,
 				D92C72AB1CCAFE2300216A1A /* main.m in Sources */,
 				D92C72B71CCAFE2300216A1A /* FunFacts.xcdatamodeld in Sources */,
 			);
